@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Dubai</string>
+    <string name="btnNext">Click Here</string>
+    <string name="FPDubai">Press on Click Here to see the old Dubai and the new Dubai</string>
+    <string name="Burj">BURJ AL ARAB</string>
+    <string name="Burj2">BURJ KHALIFA</string>
+    <string name="palm">ATLANITIS THE PALM</string>
+    <string name="museum">DUBAI MUSEUM</string>
+    <string name="greeting">Welcome to Dubai</string>
+    <string name="description">Dubai image</string>
+    <string name="FP">Famous Places</string>
+    <string name="oldnew">Press on Click Here to learn more about Dubai</string>
+    <string name="old">Old Dubai</string>
+    <string name="Nxt">Next</string>
+    <string name="new1">New Dubai</string>
+    <string name="DN">Learn More About Dubai</string>
+    <string-array name="txtGroup">
+        <item>Is Dubai the capital city of United Arab Emirates?</item>
+        <item>Who is the ruler of Dubai?</item>
+        <item>What is the population of Dubai?</item>
+        <item>What is the total size of Dubai?</item>
+        <item>What are the most popular places in Dubai?</item>
+    </string-array>
+    <string name="btnAns">Answer</string>
+    <string name="txtPic">Click Next to veiw pictures of Old Dubai and New Dubai</string>
+    <string name="btnbk">New Dubai</string>
+
+</resources>
