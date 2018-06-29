@@ -1,15 +1,15 @@
 package rahman.abdul.abudhabi;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.content.Intent;
 import android.util.Log;
 
 public class SplashActivity extends Activity {
 
     private static final String TAG = "SplashActivity";
-    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,16 +21,5 @@ public class SplashActivity extends Activity {
                 finish();
             }
         }, 3000);
-        //Remove activity
-//        Log.d(TAG, "onCreate: before finish()");
-//        finish();
-//        Log.d(TAG, "onCreate: after finish()");
     }
-
-//    @Override
-//    protected void onDestroy() {
-//        Log.d(TAG, "onDestroy: starts");
-//        super.onDestroy();
-//        Log.d(TAG, "onDestroy: ends");
-//    }
 }

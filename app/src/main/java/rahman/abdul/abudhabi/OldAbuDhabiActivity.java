@@ -1,17 +1,10 @@
 package rahman.abdul.abudhabi;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
-//import android.os.Bundle;
-//import android.support.design.widget.FloatingActionButton;
-//import android.support.design.widget.Snackbar;
-//import android.support.v7.app.AppCompatActivity;
-//import android.support.v7.widget.Toolbar;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-//import android.widget.TextView;
 
 public class OldAbuDhabiActivity extends AppCompatActivity {
 
@@ -20,26 +13,10 @@ public class OldAbuDhabiActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_old_abudhabi);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setLogo(R.mipmap.ic_launcher); //             ic_launcher);
+        getSupportActionBar().setLogo(R.mipmap.ic_launcher);
         getSupportActionBar().setDisplayUseLogoEnabled(true);
 
-
-        /* Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);*/
-
-        /*String s = getIntent().getStringExtra("hello");
-        TextView objTextview = (TextView) findViewById(R.id.textView2);
-        objTextview.setText(s);*/
-
-    /*    FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });*/
-        Button button = (Button) findViewById(R.id.btnBK);
+        Button button = findViewById(R.id.btnBK);
         button.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v) {
                 Intent i = new Intent(OldAbuDhabiActivity.this, NewAbuDhabiActivity.class);
@@ -47,5 +24,4 @@ public class OldAbuDhabiActivity extends AppCompatActivity {
             }
         });
     }
-
 }

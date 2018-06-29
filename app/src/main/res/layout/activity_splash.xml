@@ -11,7 +11,7 @@
         android:layout_height="0dp"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:src="@drawable/ic_launcher_web"
+        android:src="@drawable/splash_imge"
         app:layout_constraintBottom_toTopOf="@+id/splashTextView"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

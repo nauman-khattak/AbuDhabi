@@ -24,12 +24,11 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="205dp"
+        android:layout_width="0dp"
         android:layout_height="134dp"
         android:contentDescription="@string/description"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.307"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
         app:layout_constraintVertical_bias="0.0"
@@ -37,15 +36,14 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="207dp"
+        android:layout_width="0dp"
         android:layout_height="158dp"
         android:contentDescription="@string/description"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.31"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.06999999"
         app:srcCompat="@drawable/new_royal_palace_under_construction" />
 
     <ImageView
@@ -55,10 +53,10 @@
         android:contentDescription="@string/description"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.323"
+        app:layout_constraintHorizontal_bias="0.38"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.469"
+        app:layout_constraintVertical_bias="0.42000002"
         app:srcCompat="@drawable/abu_dhabi_in_1964" />
 
     <Button

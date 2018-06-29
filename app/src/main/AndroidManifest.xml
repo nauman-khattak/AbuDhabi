@@ -4,6 +4,8 @@
 
     <application
         android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -28,11 +30,17 @@
 
         <activity
             android:name=".OldAbuDhabiActivity"
+            android:label="Old Abu Dhabi"
             android:theme="@style/AppTheme" />
+
         <activity
             android:name=".AbuDhabiActivity"
             android:theme="@style/AppTheme" />
-        <activity android:name=".NewAbuDhabiActivity" />
+
+        <activity
+            android:name=".NewAbuDhabiActivity"
+            android:label="New Abu Dhabi"
+            android:theme="@style/AppTheme" />
 
     </application>
 
