@@ -13,12 +13,12 @@ import android.view.View;
 import android.widget.Button;
 //import android.widget.TextView;
 
-public class OldDubai extends AppCompatActivity {
+public class OldAbuDhabiActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_old_dubai);
+        setContentView(R.layout.activity_old_abudhabi);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setLogo(R.mipmap.ic_launcher); //             ic_launcher);
         getSupportActionBar().setDisplayUseLogoEnabled(true);
@@ -42,7 +42,7 @@ public class OldDubai extends AppCompatActivity {
         Button button = (Button) findViewById(R.id.btnBK);
         button.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v) {
-                Intent i = new Intent(OldDubai.this, NewDubai.class);
+                Intent i = new Intent(OldAbuDhabiActivity.this, NewAbuDhabiActivity.class);
                 startActivity(i);
             }
         });

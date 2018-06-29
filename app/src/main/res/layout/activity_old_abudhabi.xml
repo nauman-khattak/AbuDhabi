@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".OldDubai">
+    tools:context=".OldAbuDhabiActivity">
 
     <TextView
         android:id="@+id/textView3"
@@ -33,7 +33,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/clock" />
+        app:srcCompat="@drawable/old_landscape_of_abu_dhabi" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -46,7 +46,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/jpeg" />
+        app:srcCompat="@drawable/new_royal_palace_under_construction" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -59,12 +59,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
         app:layout_constraintVertical_bias="0.469"
-        app:srcCompat="@drawable/oldie" />
+        app:srcCompat="@drawable/abu_dhabi_in_1964" />
 
     <Button
         android:id="@+id/btnBK"
         android:layout_width="103dp"
-        android:layout_height="45dp"
+        android:layout_height="53dp"
         android:text="@string/btnbk"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -9,14 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".MainActivity"
-            android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme">
+
         </activity>
 
         <meta-data
@@ -24,12 +27,13 @@
             android:resource="@array/preloaded_fonts" />
 
         <activity
-            android:name=".OldDubai"
+            android:name=".OldAbuDhabiActivity"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".Dubai"
+            android:name=".AbuDhabiActivity"
             android:theme="@style/AppTheme" />
-        <activity android:name=".NewDubai"></activity>
+        <activity android:name=".NewAbuDhabiActivity" />
+
     </application>
 
 </manifest>

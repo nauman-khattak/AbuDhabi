@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NewDubai">
+    tools:context=".NewAbuDhabiActivity">
 
     <TextView
         android:id="@+id/textView4"
@@ -35,7 +35,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/dubai1" />
+        app:srcCompat="@drawable/emirates_palace" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -48,7 +48,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView6"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/frame" />
+        app:srcCompat="@drawable/ferrari_land" />
 
     <ImageView
         android:id="@+id/imageView8"
@@ -61,6 +61,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView6"
         app:layout_constraintVertical_bias="0.657"
-        app:srcCompat="@drawable/burj" />
+        app:srcCompat="@drawable/sheikh_zayed_mosque_night_view" />
 
 </android.support.constraint.ConstraintLayout>

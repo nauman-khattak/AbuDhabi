@@ -11,9 +11,9 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 
-public class Dubai extends AppCompatActivity {
+public class AbuDhabiActivity extends AppCompatActivity {
     String groupChoice="";
-    String names[] ={"Is Dubai the capital city of United Arab Emirates?", "Who is the ruler of Dubai?", "What is the population of Dubai?", "What is the total size of Dubai?", "What are the most popular places in Dubai?"};
+    String names[] ={"Is AbuDhabiActivity the capital city of United Arab Emirates?", "Who is the ruler of AbuDhabiActivity?", "What is the population of AbuDhabiActivity?", "What is the total size of AbuDhabiActivity?", "What are the most popular places in AbuDhabiActivity?"};
     ArrayAdapter <String> adapter;
     Spinner spin;
     TextView display_data;
@@ -21,16 +21,16 @@ public class Dubai extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dubai);
+        setContentView(R.layout.activity_abudhabi);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setLogo(R.mipmap.ic_launcher); //             ic_launcher);
+        getSupportActionBar().setLogo(R.mipmap.ic_launcher);
         getSupportActionBar().setDisplayUseLogoEnabled(true);
 
 
 
 
         spin = findViewById(R.id.txtGroup);
-        adapter = new ArrayAdapter<String>(this,android.R.layout.simple_expandable_list_item_1,names);
+        adapter = new ArrayAdapter<>(this,android.R.layout.simple_expandable_list_item_1,names);
 
         display_data = findViewById(R.id.txtResult);
 
@@ -44,23 +44,23 @@ public class Dubai extends AppCompatActivity {
                 {
 
                     case 0:
-                        groupChoice = "No, Abu Dhabi is the capital city of United Arab Emirates";
+                        groupChoice = "Yes, Abu Dhabi is the capital city of United Arab Emirates";
                         break;
 
                     case 1:
-                        groupChoice = "His Highness Sheikh Mohammed Bin Rashid Al Maktoum";
+                        groupChoice = "His Highness Sheikh Zayed bin Sultan Al Nahyan";
                         break;
 
                     case 2:
-                        groupChoice = "3.052 million";
+                        groupChoice = "1.145 million";
                         break;
 
                     case 3:
-                        groupChoice = "4,114 km²";
+                        groupChoice = "972 km²";
                         break;
 
                     case 4:
-                        groupChoice = "Burj Kalifa, Burj Al Arab, Dubai Mall and Palm Island";
+                        groupChoice = "Sheikh Zayed Mosque, Ferrari World, Marina Mall and Yas Waterworld";
                         break;
 
                 }
@@ -99,7 +99,7 @@ public class Dubai extends AppCompatActivity {
         Button button1 = (Button) findViewById(R.id.btnNxt);
         button1.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v) {
-                Intent i = new Intent(Dubai.this, OldDubai.class);
+                Intent i = new Intent(AbuDhabiActivity.this, OldAbuDhabiActivity.class);
                 startActivity(i);
 
             }
