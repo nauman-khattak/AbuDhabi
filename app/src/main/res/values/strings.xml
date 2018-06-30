@@ -22,6 +22,7 @@
     <string name="splashScreenText">Abu Dhabi</string>
     <string name="btn_play">Play</string>
     <string name="btn_videoActivity">View Video</string>
+    <string name="btnBack">Go Back</string>
 
 </resources>
 

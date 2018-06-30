@@ -25,7 +25,7 @@ public class VideoActivity extends AppCompatActivity {
         videoview.start();
     }
 
-    public void onBackPressed() {
+    public void onClickGoBack(View v) {
         startActivity(new Intent(VideoActivity.this, MainActivity.class));
     }
 
