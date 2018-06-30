@@ -22,8 +22,9 @@
         </activity>
         <activity
             android:name=".MainActivity"
+            android:launchMode="singleTask"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
 
         <meta-data
             android:name="preloaded_fonts"
@@ -43,7 +44,10 @@
             android:label="New Abu Dhabi"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
-        <activity android:name=".VideoActivity"></activity>
+        <activity
+            android:name=".VideoActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>
