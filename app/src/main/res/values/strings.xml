@@ -20,6 +20,8 @@
     <string name="txtPic">Click Next to veiw pictures of Old Abu Dhabi and New Abu Dhabi</string>
     <string name="btnbk">New Abu Dhabi</string>
     <string name="splashScreenText">Abu Dhabi</string>
+    <string name="btn_play">Play</string>
+    <string name="btn_videoActivity">View Video</string>
 
 </resources>
 

@@ -23,9 +23,7 @@
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme">
-
-        </activity>
+            android:theme="@style/AppTheme"></activity>
 
         <meta-data
             android:name="preloaded_fonts"
@@ -36,18 +34,16 @@
             android:label="Old Abu Dhabi"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
-
         <activity
             android:name=".AbuDhabiActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
-
         <activity
             android:name=".NewAbuDhabiActivity"
             android:label="New Abu Dhabi"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
-
+        <activity android:name=".VideoActivity"></activity>
     </application>
 
 </manifest>
