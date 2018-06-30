@@ -42,7 +42,7 @@ public class AbuDhabiActivity extends AppCompatActivity {
                         break;
 
                     case 1:
-                        groupChoice = "His Highness Sheikh Zayed bin Sultan Al Nahyan";
+                        groupChoice = "Sheikh Khalifa bin Zayed Al Nahyan";
                         break;
 
                     case 2:
