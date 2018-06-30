@@ -5,9 +5,9 @@
     <string name="greeting">Welcome to Abu Dhabi</string>
     <string name="description">Abu Dhabi image</string>
     <string name="oldnew">Press on Click Here to learn more about Abu Dhabi</string>
-    <string name="old">Old Abu Dhabi</string>
+    <string name="old">Old Pictures</string>
     <string name="Nxt">Next</string>
-    <string name="new1">New Abu Dhabi</string>
+    <string name="new1">New Pictures</string>
     <string name="DN">Learn More About Abu Dhabi</string>
     <string-array name="txtGroup">
         <item>Is Abu Dhabi the capital city of United Arab Emirates?</item>
@@ -22,3 +22,5 @@
     <string name="splashScreenText">Abu Dhabi</string>
 
 </resources>
+
+

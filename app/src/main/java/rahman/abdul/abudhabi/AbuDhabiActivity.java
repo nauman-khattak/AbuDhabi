@@ -10,10 +10,9 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-
 public class AbuDhabiActivity extends AppCompatActivity {
     String groupChoice = "";
-    String names[] = {"Is AbuDhabiActivity the capital city of United Arab Emirates?", "Who is the ruler of Abu Dhabi?", "What is the population of Abu Dhabi?", "What is the total size of Abu Dhabi?", "What are the most popular places in Abu Dhabi"};
+    String names[] = {"Is Abu Dhabi the capital city of United Arab Emirates?", "Who is the ruler of Abu Dhabi?", "What is the population of Abu Dhabi?", "What is the total size of Abu Dhabi?", "What are the most popular places in Abu Dhabi"};
     ArrayAdapter<String> adapter;
     Spinner spin;
     TextView display_data;
